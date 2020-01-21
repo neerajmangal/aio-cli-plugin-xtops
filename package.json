@@ -1,6 +1,6 @@
 {
-  "name": "@adobe/PLUGINNAME",
-  "version": "0.0.0",
+  "name": "aio-cli-plugin-xtops",
+  "version": "0.0.1",
   "dependencies": {
     "@adobe/aio-cna-core-config": "^1.0.14",
     "@oclif/command": "^1",
@@ -72,5 +72,18 @@
     "setupFilesAfterEnv": [
       "./jest.setup.js"
     ]
-  }
+  },
+  "description": "Adobe I/O XT OPs commands for the Adobe I/O CLI",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neerajmangal/aio-cli-plugin-xtops.git"
+  },
+  "author": "Adobe Inc.",
+  "bugs": {
+    "url": "https://github.com/neerajmangal/aio-cli-plugin-xtops/issues"
+  },
+  "homepage": "https://github.com/neerajmangal/aio-cli-plugin-xtops#readme"
 }
